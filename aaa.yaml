@@ -1,0 +1,7 @@
+Resources:
+  VsBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties: 
+       BucketName: "ahmednic.com"
+       VersioningConfiguration:
+        Status: Enabled
